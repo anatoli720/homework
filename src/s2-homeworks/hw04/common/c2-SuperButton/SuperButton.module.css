@@ -1,0 +1,52 @@
+.button {
+    padding: 0px 5px;
+    cursor: pointer;
+}
+
+.disabled {
+ 
+}
+
+.secondary {
+   border: 1px solid blue;
+   color: blue;
+}
+
+.default {
+    background-color: blue;
+    color: white;   
+}
+
+.red {
+    background-color: red;
+    color: white;
+}
+
+.default:hover {
+    background-color: rgb(121, 121, 247); 
+}
+
+.red:hover {
+    background-color: rgb(245, 130, 130); 
+}
+
+.secondary:hover {
+}
+
+
+.default:active {
+    background-color: blue; 
+}
+
+.secondary:active {
+    background-color: rgb(202, 202, 248);   
+}
+
+.red:active {
+    background-color: red;  
+}
+
+.button:disabled {
+    background-color: rgb(110, 171, 199);
+    cursor: not-allowed;
+}

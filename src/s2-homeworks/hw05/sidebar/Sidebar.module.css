@@ -1,0 +1,64 @@
+.sidebar {
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #f0f0f0;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    z-index: 1000;
+}
+
+.sidebar.open {
+    transform: translateX(0);
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.nav {
+    
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.nav a:hover {
+    font-weight: bold;
+    color: rgb(72, 90, 194);
+}
+
+.nav a.active {
+    font-weight: bold;
+    color: #41abf1;
+    text-decoration:underline;
+}
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.close img {
+    width: 24px;
+    height: 24px;
+}

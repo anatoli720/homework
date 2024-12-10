@@ -1,0 +1,46 @@
+.greetingForm {
+}
+
+.inputAndButtonContainer {
+  display: flex; 
+}
+
+.error {
+    color:red
+}
+
+.input {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.input:focus {
+}
+
+.errorInput {
+    border: 1px solid red;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.button {
+background-color: blue;
+color: aliceblue;
+}
+
+.button:focus {
+}
+
+.button:active {
+}
+
+.button:disabled {
+    
+}
+
+.text {
+}
+
+.greeting {
+}
